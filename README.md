@@ -261,13 +261,7 @@ Open a terminal:
 ```bash
 cd backend
 npm install
-npm run dev
-```
-
-If the backend does not have a `dev` script, run the start command defined in its `package.json`, for example:
-
-```bash
-npm start
+node server.js
 ```
 
 The backend is expected to run at:
